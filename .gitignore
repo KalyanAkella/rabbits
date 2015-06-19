@@ -1,6 +1,186 @@
-.idea/
-*.iml
-*.ipr
-*.iws
-*.class
-lib/
+# User-specific files
+*.suo
+*.user
+*.sln.docstates
+
+# Build results
+
+[Dd]ebug/
+[Rr]elease/
+x64/
+build/
+[Bb]in/
+[Oo]bj/
+
+# Enable "build/" folder in the NuGet Packages folder since NuGet packages use it for MSBuild targets
+!packages/*/build/
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+*_i.c
+*_p.c
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.log
+.builds
+*.pidb
+*.svclog
+
+# Visual C++ cache files
+ipch/
+*.aps
+*.ncb
+*.opensdf
+*.sdf
+*.cachefile
+
+# Visual Studio profiler
+*.psess
+*.vsp
+*.vspx
+
+# Guidance Automation Toolkit
+*.gpState
+
+# ReSharper is a .NET coding add-in
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# TeamCity is a build add-in
+_TeamCity*
+
+# DotCover is a Code Coverage Tool
+*.dotCover
+
+#git merge files
+*.orig
+
+# NCrunch
+*.ncrunch*
+_NCrunch_*
+.*crunch*.local.xml
+
+# Click-Once directory
+publish/
+
+# Publish Web Output
+*.Publish.xml
+
+# NuGet Packages Directory
+## TODO: If you have NuGet Package Restore enabled, uncomment the next line
+packages/
+
+# Others
+*.Cache
+ClientBin/
+[Ss]tyle[Cc]op.*
+~$*
+*~
+*.dbmdl
+*.dbproj.schemaview
+*.[Pp]ublish.xml
+*.pfx
+*.publishsettings
+
+# RIA/Silverlight projects
+Generated_Code/
+
+# Backup & report files from converting an old project file to a newer
+# Visual Studio version. Backup files are not needed, because we have git ;-)
+_UpgradeReport_Files/
+Backup*/
+UpgradeLog*.XML
+UpgradeLog*.htm
+
+# SQL Server files
+App_Data/*.mdf
+App_Data/*.ldf
+
+# Business Intelligence projects
+*.rdl.data
+*.bim.layout
+*.bim_*.settings
+
+# =========================
+# Windows detritus
+# =========================
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# =========================
+# Mac crap
+# =========================
+
+.DS_Store
+
+# =========================
+# Node detritus
+# =========================
+npm-debug.log
+node_modules
+
+# Bower
+bower_components
+
+
+# =========================
+# Data related detritus
+# =========================
+
+# from script that loads data in Vertica
+*out.txt
+
+# folder for saved query plans
+[Pp]lans/
+
+# folder for saved outputs
+[Oo]ut/
+
+# from emacs
+*~
+
+# from scripts that get Vertica to dump HTML output
+*.output.htm
+
+# pipe separated as opposed to comma, by own acronym
+*.psv
+
+# IDEA Project files
+**/.idea/**
+.idea
+
+#Ignore python byte code files
+*.pyc
+#nuget exclusions
+deploy/*.nupkg
+
+create_and_populate_named_schema.sh
+
+# Installshield output folder
+[Ee]xpress/
+*.InstallLog
+App.config
+
